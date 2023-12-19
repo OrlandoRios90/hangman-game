@@ -1,0 +1,65 @@
+.main {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.lose-win {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hangman-drawing-container {
+    position: relative;
+}
+
+.bottom-bar {
+    height: 10px;
+    width: 250px;
+    background: black;
+}
+
+.pole {
+    height: 400px;
+    width: 10px;
+    background: black;
+    margin-left: 120px;
+}
+
+.top-bar {
+    width: 200px;
+    height: 10px;
+    background: black;
+    margin-left: 120px;
+}
+
+.rope {
+    height: 50px;
+    width: 10px;
+    background: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.head {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 10px solid black;
+    position: absolute;
+    top: 50px;
+    right: -30px;
+}
+
+.body {
+    height: 100px;
+    width: 10px;
+    background: black;
+    position: absolute;
+    top: 119px;
+    right: 0;
+}
