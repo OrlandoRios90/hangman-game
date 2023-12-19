@@ -63,3 +63,49 @@
     top: 119px;
     right: 0;
 }
+
+.right-arm {
+    width: 100px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    top: 150px;
+    right: -100px;
+    rotate: -30deg;
+    transform-origin: left bottom;
+}
+
+.left-arm {
+    width: 100px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    rotate: 30deg;
+    transform-origin: right bottom;
+}
+
+.left-leg {
+    width: 100px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    top: 210px;
+    right: 0px;
+    rotate: -50deg;
+    transform-origin: right bottom;
+}
+
+.right-leg {
+    width: 100px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    top: 210px;
+    right: -90px;
+    rotate: 50deg;
+    transform-origin: left bottom;
+}
+
+
