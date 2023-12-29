@@ -5,6 +5,7 @@ type HangmanWordProps = {
 
 export function HangmanWord({guessedLetters, wordToGuess}: HangmanWordProps) {
     
+    
 
     return <div className="hangman-word-container">
         
@@ -16,6 +17,7 @@ export function HangmanWord({guessedLetters, wordToGuess}: HangmanWordProps) {
                 }}>{letter}</span>
             </span>
         ))}
+
 
     </div>
 }

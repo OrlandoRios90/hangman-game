@@ -7,7 +7,7 @@ export function Keyboard() {
     return <div className="keyboard-container">
         {keys.map(key => {
             return (
-                <button key={key} className="button">{key}</button>
+                <button key={key} className="button inactive">{key}</button>
             )
         })}
     </div>

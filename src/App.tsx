@@ -10,7 +10,6 @@ function App() {
     return words[Math.floor(Math.random() * words.length)]
   });
   
-
   const [guessedLetters, setGuessedLetters] = useState<string[]>([])
 
   const incorrectLetters = guessedLetters.filter(
@@ -32,7 +31,7 @@ function App() {
     }
 
     document.addEventListener("keypress", handler);
-
+    
     return () => {
       document.removeEventListener("keypress", handler);
     }
